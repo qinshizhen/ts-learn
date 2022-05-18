@@ -1,0 +1,16 @@
+{
+    // 编译器选项 
+    "compilerOptions": {
+        // 用来指定 ES 版本。 默认 ES3
+        // ESNext : 最新版。 
+        // 'ES3', 'ES5', 'ES6'/'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', 'ESNext'
+        "target": "ES2015",
+
+        // 指定要使用模块化的规范 : 'None', 'CommonJS', 'AMD', 
+        // 'System', 'UMD', 'ES6'/'ES2015', 'ES2020' or 'ESNext'
+        "module": "ES2015",
+
+        // 所有的严格检查的总开关，默认false
+        "strict": true,
+    }
+}
